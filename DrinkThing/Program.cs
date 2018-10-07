@@ -151,10 +151,12 @@ namespace DrinkThing
 
             List<Drink> drinks = GetDrinksFromAPI(url);
 
-            for (int i = 0; i < drinks.Count; i++)
-            {
-                drinks[i] = GetDrinkDetails(drinks[i]);
-            }
+            // Uncomment this to get drink details for every single drink returned
+            // (will make program appear slow or unresponsive if many drinks are found)
+            //for (int i = 0; i < drinks.Count; i++)
+            //{
+            //    drinks[i] = GetDrinkDetails(drinks[i]);
+            //}
 
             return drinks;
         }
@@ -287,6 +289,13 @@ namespace DrinkThing
             // Get the choice (-1 to compensate for 0-based index --
             // see where the index is i+1 in the loop above)
             int index = int.Parse(Console.ReadLine()) - 1;
+
+            // If a drink has no listed ingredients, or a drink has no instructions,
+            if(drinks[index].Ingredients.Count == 0 || drinks[index].Ingredients == null ||
+               drinks[index].strInstructions == null || drinks[index].strInstructions == "") {
+                // get those details from the API
+                drinks[index] = GetDrinkDetails(drinks[index]);
+            }
 
             // Return ingredients
             Console.WriteLine($"\nFor a {drinks[index].strDrink}, you'll need...");
