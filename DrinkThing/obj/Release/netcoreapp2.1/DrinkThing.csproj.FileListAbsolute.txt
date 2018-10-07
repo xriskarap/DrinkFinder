@@ -1,0 +1,10 @@
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/bin/Release/netcoreapp2.1/DrinkThing.deps.json
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/bin/Release/netcoreapp2.1/DrinkThing.runtimeconfig.json
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/bin/Release/netcoreapp2.1/DrinkThing.runtimeconfig.dev.json
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/bin/Release/netcoreapp2.1/DrinkThing.dll
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/bin/Release/netcoreapp2.1/DrinkThing.pdb
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/obj/Release/netcoreapp2.1/DrinkThing.csproj.CoreCompileInputs.cache
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/obj/Release/netcoreapp2.1/DrinkThing.AssemblyInfoInputs.cache
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/obj/Release/netcoreapp2.1/DrinkThing.AssemblyInfo.cs
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/obj/Release/netcoreapp2.1/DrinkThing.dll
+/Users/xriskaraplis/Projects/DrinkThing/DrinkThing/obj/Release/netcoreapp2.1/DrinkThing.pdb

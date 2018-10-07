@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{FE33BED7-4839-4097-9D11-6548C6CAAB2F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DrinkThing/Program.cs">
+    <Files>
+      <File FileName="DrinkThing/Program.cs" Line="26" Column="40" />
+      <File FileName="DrinkThing/Drink.cs" Line="15" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DrinkThing" expanded="True">
+            <Node name="DrinkThing" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DrinkThing PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
